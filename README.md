@@ -1,6 +1,6 @@
 # 🗂️ @robert.tools/atom-image
 
-null
+Component of an image
 
 ## 📜 Usage
 

@@ -1,6 +1,6 @@
 {
     "name": "@robert.tools/atom-image",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Component of an image",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
