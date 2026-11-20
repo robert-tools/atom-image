@@ -1,6 +1,6 @@
 # 🗂️ @robert.tools/atom-image
 
-Component of an image
+null
 
 ## 📜 Usage
 
@@ -12,10 +12,34 @@ npm install @robert.tools/atom-image
 
 ### 📝 Sample usage
 
-```typescript
-import { atom-image } from '@robert.tools/atom-image';
+#### prerequisites
 
-atom-image('hello'); // 'atom-image: hello'
+- define css variables
+- safeParam installed (@robert.tools/eleventy-filter-safe-param)
+- svg filter installed (@robert.tools/eleventy-filter-svg)
+
+#### Template
+
+Use the image component as shown below:
+
+```html
+{{ component("atom/image", {}) }}
+```
+
+#### CSS
+
+Use the basic styling
+
+```css
+@import '@robert.tools/atom-image/src/index.css';
+```
+
+#### TypeScript
+
+Include TypeScript by importing the component
+
+```typescript
+import * as AtomImage from '@robert.tools/atom-image';
 ```
 
 ## 🗃️ commands
