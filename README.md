@@ -1,21 +1,21 @@
-# 🗂️ @robert.tools/sample
+# 🗂️ @robert.tools/atom-image
 
-<description>
+Component of an image
 
 ## 📜 Usage
 
 ### 🟢 Installation
 
 ```bash
-npm install @robert.tools/sample
+npm install @robert.tools/atom-image
 ```
 
 ### 📝 Sample usage
 
 ```typescript
-import { <name> } from '@robert.tools/sample';
+import { atom-image } from '@robert.tools/atom-image';
 
-<name>('hello'); // '<name>: hello'
+atom-image('hello'); // 'atom-image: hello'
 ```
 
 ## 🗃️ commands
